@@ -94,7 +94,7 @@ Choose this option to view a list of ingredients from the saved recipes.
 
 The program will display the ingredient list from all the saved recipes.
 
-Tips
+# Tips
 
 
 
@@ -180,5 +180,5 @@ Handing in your Course Project
 
 ### Well done!
 
-🎉 
+## 🎉 
 
