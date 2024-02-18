@@ -1,4 +1,4 @@
-#Instructions
+# Instructions
 
 
 . Fork the starter Repl(opens in a new tab). As you can see in the files panel, there’s a cake-recipes.json file with all the recipe data. We read in this recipe data in index.js using `require` the exact working of which is not important right now.
@@ -45,14 +45,14 @@ To complete the system we will complete the switch statement and use all the pre
 
 
 
-#Show All Authors
+# Show All Authors
 
 When this option is selected, the program should display a list of all unique authors found in the recipe data.
 
 
 
 
-#Show Recipe Names by Author
+# Show Recipe Names by Author
 
 If you choose this option, you will be prompted to enter the name of an author.
 
@@ -62,7 +62,7 @@ The program will then display a list of recipe names authored by the specified a
 
 
 
-#Show Recipe Names by Ingredient
+# Show Recipe Names by Ingredient
 
 This option allows you to search for recipes containing a specific ingredient.
 
@@ -75,7 +75,7 @@ The program will display a list of recipe names that include the entered ingredi
 
 
 
-#Get Recipe by Name
+# Get Recipe by Name
 
 If you select this option, you can search for a recipe by its name.
 
@@ -88,7 +88,7 @@ You'll also have the option to save the ingredients of the recipe. Save them in 
 
 
 
-#Get All Ingredients of Saved Recipes
+# Get All Ingredients of Saved Recipes
 
 Choose this option to view a list of ingredients from the saved recipes.
 
@@ -122,7 +122,7 @@ bullet
 bullet
 . Function to Get Unique Authors
 
-*Create a function that returns all authors of a given recipe list.
+* Create a function that returns all authors of a given recipe list.
 Utilize the `.forEach` method for iteration.
 Input: `recipes` (an array of recipes with the same format as `cakeRecipes`)
 Output: A list of unique authors (each author appears only once in the returned list).
@@ -131,7 +131,7 @@ Users can choose this option from the menu to view authors' names.
 bullet
 . Function to Log Recipe Names
 
-*Create a function that logs the name of each recipe.
+* Create a function that logs the name of each recipe.
 Input: `recipes` (a list of recipes with the same format as `cakeRecipes`).
 Utilize object destructuring within the function to access recipe names.
 No specific output is required; it should log the names to the console.
@@ -176,9 +176,9 @@ Output: An array containing all the ingredients from the recipe list.
 Users can select this option from the menu to view the ingredient list from the recipes that are saved in the previous function.
 Handing in your Course Project
 
-##When you feel ready, you can hand in your Project by uploading your REPLit link on the next page. 
+## When you feel ready, you can hand in your Project by uploading your REPLit link on the next page. 
 
-###Well done!
+### Well done!
 
 🎉 
 
