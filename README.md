@@ -97,76 +97,76 @@ The program will display the ingredient list from all the saved recipes.
 Tips
 
 
-bullet 
+
 - Don’t forget to take regular breaks
 
 
-bullet
+
 - You can use code examples from previous exercises and projects
 
 
-bullet
+
 - Make sure to use good names for your variables and functions that describes it’s purpose.
 
 
-bullet
+
 - Properly decomposing problems into functions is important for this assignment. Follow the process that you learned for that. Be sure to test the smaller functions you use for parts of the problem to check if they’re working correctly.
 
 Requirements
 
 
-bullet
+
 - All functions are pure functions except the printing function.
 
 
-bullet
+
 - Function to Get Unique Authors
 
- Create a function that returns all authors of a given recipe list.
+Create a function that returns all authors of a given recipe list.
 Utilize the `.forEach` method for iteration.
 Input: `recipes` (an array of recipes with the same format as `cakeRecipes`)
 Output: A list of unique authors (each author appears only once in the returned list).
 Users can choose this option from the menu to view authors' names.
 
-bullet
+
 - Function to Log Recipe Names
 
- Create a function that logs the name of each recipe.
+Create a function that logs the name of each recipe.
 Input: `recipes` (a list of recipes with the same format as `cakeRecipes`).
 Utilize object destructuring within the function to access recipe names.
 No specific output is required; it should log the names to the console.
 Users can select this option from the menu and triggers this function.
 
-bullet
+
 - Function to Get Recipes by Author
 
- Create a function that returns all recipes of a given author.
+Create a function that returns all recipes of a given author.
 Utilize the `.filter` method for filtering recipes by author.
 Input: `recipes` (an array of recipes with the same format as `cakeRecipes`) and `author` (a string representing the author's name).
 Output: An array of all recipes authored by the given author.
 This option is available in the menu and triggers this function.
 
-bullet
+
 - Function to Get Recipes by Ingredient
 
- Create a function that returns a list of recipes that contain a given ingredient.
+Create a function that returns a list of recipes that contain a given ingredient.
 Utilize the `.filter()` method to filter recipes.
 Use the `.some()` method to check if the ingredient list of each recipe contains the given ingredient.
 Input: `recipes` (an array of recips with the same format as `cakeRecipes`) and `ingredient` (a string representing the ingredient to search for).
 Output: An array of recipes that contain the specified ingredient.
 This feature is accessible from the menu and triggers this function.
 
-bullet
+
 - Function to Get Recipe by Name
 
- Create a function that returns a single recipe that matches a given name.
+Create a function that returns a single recipe that matches a given name.
 Utilize the `.find()` method to find a recipe by name.
 Use `.includes()` method to check for name match.
 Input: `recipes` (an array of recipes with the same format as `cakeRecipes`) and `name` (a string representing the recipe name to search for).
 Output: The recipe object that matches the given name, or `null` if no match is found.
 After running this function from the menu, give the user the option to save the found recipe so that it can be used to print an ingredient list (see next requirement).
 
-bullet
+
 - Function to Get All Ingredients
 
 Create a function that returns all ingredients of a given recipe list in a single array.
