@@ -187,9 +187,17 @@ do {
     case 5:
       // Choose this option to view a list of ingredients from the saved recipes.
       // The program will display the ingredient list from all the saved recipes.
-      const savedIngredients = printSavedIngredients(savedRecipes);
 
-      console.log("Saved Ingredients:", savedIngredients);
+      if (savedRecipes.length === 0) {
+        console.log("No saved ingredients.");
+        console.log("if you like to save the ingredients of a recipe, press: 4.")
+      } else {
+        const savedIngredients = printSavedIngredients(savedRecipes);
+        console.log("Saved Ingredients:", savedIngredients);
+
+
+      }
+
       break;
 
     case 0:
